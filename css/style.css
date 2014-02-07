@@ -1,0 +1,533 @@
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('Bebas-fontfacekit/BEBAS___-webfont.eot');
+    src: url('Bebas-fontfacekit/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('Bebas-fontfacekit/BEBAS___-webfont.woff') format('woff'),
+         url('Bebas-fontfacekit/BEBAS___-webfont.ttf') format('truetype'),
+         url('Bebas-fontfacekit/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-size: 1em;
+	font-family: 'PT Sans', sans-serif;
+	line-height: 1.5em;
+	color: #563222;
+	margin: 0;
+	height: 100%
+	padding-bottom: 100px;
+}
+
+/*Class Nav*/
+#nav {
+	position:fixed!important;
+	width:100%;
+	background-color:rgba(255,255,255,0.9);
+	top:0px;
+	font-weight:normal;
+	font-size:1em;
+	padding: 10px 0 10px 0;
+	border-bottom-style: solid;
+	border-width: 5px;
+	border-color: #A4BA68;
+	overflow:auto;
+	margin: 0;
+}
+
+#nav:after {
+	clear:both;
+}
+
+#nav ul {
+	float:right;
+	margin: 10px 0 0 0;
+	padding:0;
+}
+
+#nav ul li {
+	display:inline;
+	padding:10px;
+	color: #563222;
+}
+
+#nav a{
+text-decoration:none;
+color:#563222;
+line-height:1.25em;
+}
+
+#nav a:hover {
+color:orange;
+}
+
+#nav a, #nav ul li {
+float:left;
+display:block;
+width:auto;
+font-size:0.875em;
+}
+
+#siteTitle a{
+font-size: 1.25em;
+}
+
+#ourStory {
+	font-family: 'Bebas Neue' !important;
+	font-size: 2em;
+	margin: 3px 20px 0 0;
+	word-spacing: .2em;
+	float: left;
+	
+}
+
+.centered {
+	padding: 0 10%;
+
+}
+
+/*Site Body*/
+
+.container {
+	overflow: auto;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 100%;
+	min-width: 100%;
+	width: 100%;
+	background: #000000;
+}
+
+.navigation{
+	list-style-type:none;
+}
+
+.navSide {
+	font-weight: bold;
+	float: left;
+	position: fixed;
+	top: 20%;
+	background-image: url("PICS/navMenu.png");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	padding: 3% 4% 3% 1%;
+	z-index: 2;
+	width: 120px;
+	list-style-type: none;
+	display: block;
+    margin-left: -9%;
+    overflow: visible;
+}
+
+header {
+	width: 100%;
+	text-indent: 2%;
+}
+
+
+header nav ul {
+	list-style-type: none;
+}
+
+header nav ul li {
+	line-height: 2em;
+}
+
+h2 {
+	font-family: 'Bebas Neue', sans-serif;
+	font-size: 1.6em;
+}
+
+h2 {
+	font-size: 2.3em;
+	text-align: center;
+	line-height: 1.5em;
+	word-spacing: .2em;
+}
+
+h3 {
+	font-size: 1.5em;
+}
+
+a:link {
+	color: #563222;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #563222;
+	text-decoration: none;
+}
+
+a:hover {
+	color: orange;
+}
+
+
+/*Sections*/
+
+/*Transition Images*/
+.transImg{
+	position: absolute;
+    top: 0;  
+    bottom: 0;  
+    left: 0;  
+    right: 0;  
+    margin: auto; 
+}
+	
+
+.diffGrinds {
+	display: inline;
+	float: right;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/*Hover text for grind spectrum.*/
+
+.grindWrap {
+ position: relative;
+ float: right;
+}
+
+.diffGrinds {
+width: 100%;
+position: relative;
+}
+
+.grindSub {
+	position: absolute;
+	display: block;
+	float: left;
+	width: 15%;
+	height: 100%;
+	background-color: rgba(164,186,104,0.8);
+	color: #563222;
+	margin: 0;
+	text-align: center;
+}
+
+.grindText {
+ position: absolute;
+ display: block;
+ right: 0;
+ text-align: center;
+ margin-top: 5%;
+ padding: 1%;
+ background-color: rgba(164,186,104,1);
+ color: #563222;
+ width: 50%;
+ opacity: 0;
+ z-index: 1;
+}
+
+.grindWrap:hover .grindText {
+opacity: 1;
+}
+
+/*Brew section formatting*/
+
+.brewStepText {
+	float: left;
+}
+
+.brewVid {
+	float: right;
+	border-style: solid;
+	border-width: 5px;
+	border-color: #994F34;
+	outline: 5px solid #faf7e5;
+}
+
+.roastImgs {
+	border-style: solid;
+	border-width: 5px;
+	border-color: #994F34;
+	outline: 5px solid #faf7e5;
+
+}
+
+
+/*General Section Stuff*/
+#beanText, #roastText, #grindText, #waterText, #brewText, #sipText{
+	padding: 5% 10% 10% 10%;
+}
+
+#introSection, #grindText, #sipText {
+	background: #994F34;
+	color: #faf7e5;
+}
+
+#roastText, #brewText {
+	background: #A4BA68;
+}
+
+#beanSection, #waterSection {
+	background: #faf7e5;
+}
+
+#introSection{
+	height: 1100px;
+	text-align: center;
+	margin-top: 1100px;
+}
+
+
+#grindSection {
+	position: static;
+	padding-bottom: 60%;
+	height: 100%;
+	background-color: #994F34;
+}
+	
+
+#beanImage, #roastImage, #grindImage, #waterImage, #brewImage, #sipImage{
+	display: block;
+	width: 100%;
+	height: 1000px;
+	position: relative;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+#beanImage{
+	background-image: url("PICS/Section Images/The Bean.jpg");
+}
+
+#roastImage{
+	background-image: url("PICS/Section Images/The Roast.jpg");
+}
+
+#grindImage{
+	background-image: url("PICS/Section Images/The Grind.jpg");
+}
+
+#waterImage{
+	background-image: url("PICS/Section Images/The Water.jpg");
+}
+
+#brewImage{
+	background-image: url("PICS/Section Images/The Brew.jpg");
+}
+
+#sipImage{
+	background-image: url("PICS/Section Images/The Sip.jpg");
+} 
+
+#myChart{
+ display: block;
+ margin: auto; 
+}
+
+#ratio{
+ text-align: center;
+}
+
+#clickRegions {
+	text-align: center;
+}
+
+#regionImgsWrapper{
+	text-align: center;
+	overflow: auto;
+	white-space: nowrap;
+}
+
+#logo, #scrollDown{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10% 0% 0% 0%;
+}
+
+#scrollDown{
+	padding: 20% 0% 0% 0%;
+}
+
+/*Intro Video*/
+
+#top, div#vidintro, #intro {
+	display: block;
+	height: 100%;
+}
+
+div#vidintro, #intro {
+	position: absolute;
+	width: 100%;
+	height: 93%
+}
+
+#playercontrols {
+	margin: 0 auto;
+	display: block;
+	}
+
+#sipVidWrapper, #sipVid {
+	width: 100%;
+	height: 100%;
+	margin-bottom: 1100px;
+}
+
+#sipVid {
+	position: absolute;
+}
+
+#iframe {
+	top: 0px;
+	margin-left: 13.0208333333333%;
+	position: relative;
+}
+
+#pauseDiv{
+	height: 35px;
+	padding-top: 6%;
+	text-align: center;
+	font-weight: bold;
+	background-color: black;
+}
+
+#skipVid{
+	color: #faf7e5;
+}
+
+#skipVid:hover {
+	color: orange;
+}
+
+/*Chart*/
+
+.totalSectionPercent{
+	margin-left: 40%;
+}
+
+#boxcoffee {
+	height: 15px;
+	width: 15px;
+	background-color: #994F34;
+	display: inline-block;
+}
+#boxwater {
+	height: 15px;
+	width: 15px;
+	background-color: #A4BA68;
+	margin-left: auto;
+	margin-right: auto;
+	display: inline-block;
+}
+
+#coffeePercent {
+	font-size: 0.7em;
+	display: inline-block;
+}
+
+#waterPercent {
+	font-size: 0.7em;
+	display: inline-block;
+}
+
+
+/*Footer*/
+
+footer {
+	padding: 35px 25px;
+	background-color: #faf7e5;
+	bottom: 0;
+}
+footer ul.nav {
+	float: none;
+	overflow: visible; 
+	clear: both;
+	padding: 15px 0;
+}
+footer ul.nav li{
+	position: relative;
+	left: 0;
+	display: block;
+	float: left;
+	margin: 0 10px 0 0;
+}
+footer ul.nav>li{
+	float: left;
+}
+footer ul.nav>li>a{
+	float: none;
+	padding: 10px 15px 10px;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #ffffff;
+}
+footer ul.nav .title {
+	font-size: 1.25em;
+	margin: 3px 20px 0 0;
+}
+
+
+/*Mobile breakpoint*/
+
+@media (max-width: 1310px) {
+	#nav ul {
+		float: left;
+	}
+
+	#nav ul li {
+		padding: 10px 10px 10px 0;
+	}
+
+	#pauseDiv {
+		padding-top: 10%;
+	}
+}
+
+@media (max-width: 480px) {
+   body {
+		font-size: .7em;
+    }
+    
+    .navSide, div.title {
+		visibility: hidden;
+    }
+    
+    #beanImage, #roastImage, #grindImage, #waterImage, #brewImage, #sipImage{
+	height: 200px;
+	}
+	
+	h2 {
+	font-size: 1.5em;
+	}
+	
+	h3 {
+	font-size: .8em;
+	}
+	
+	h4 {
+	font-size: .7em;
+	}
+	
+	
+}
+
+
+@media all and (max-width:1024px) {
+	#spacer {margin-top:80px;}
+}
+@media all and (max-width:769px) {
+	#spacer {margin-top:120px;}
+}
+
+/*Styling toggle text.
+#espressoToggleText, #fineToggleText, #mediumToggleText, #coarseToggleText {
+	font-style: bold;
+	font-size: 1em;
+	text-align: center;
+	color: white;
+	margin-top: -2%;
+	margin-bottom: 2%;
+}
+*/
+
+/*Styling bean images. */
