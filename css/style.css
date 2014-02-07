@@ -111,7 +111,7 @@ font-size: 1.25em;
 	float: left;
 	position: fixed;
 	top: 20%;
-	background-image: url("PICS/navMenu.png");
+	background-image: url("../PICS/navMenu.png");
 	background-size: 100%;
 	background-repeat: no-repeat;
 	padding: 3% 4% 3% 1%;
@@ -297,27 +297,27 @@ opacity: 1;
 }
 
 #beanImage{
-	background-image: url("PICS/Section Images/The Bean.jpg");
+	background-image: url("../PICS/Section Images/The Bean.jpg");
 }
 
 #roastImage{
-	background-image: url("PICS/Section Images/The Roast.jpg");
+	background-image: url("../PICS/Section Images/The Roast.jpg");
 }
 
 #grindImage{
-	background-image: url("PICS/Section Images/The Grind.jpg");
+	background-image: url("../PICS/Section Images/The Grind.jpg");
 }
 
 #waterImage{
-	background-image: url("PICS/Section Images/The Water.jpg");
+	background-image: url("../PICS/Section Images/The Water.jpg");
 }
 
 #brewImage{
-	background-image: url("PICS/Section Images/The Brew.jpg");
+	background-image: url("../PICS/Section Images/The Brew.jpg");
 }
 
 #sipImage{
-	background-image: url("PICS/Section Images/The Sip.jpg");
+	background-image: url("../PICS/Section Images/The Sip.jpg");
 } 
 
 #myChart{
