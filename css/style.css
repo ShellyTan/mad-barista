@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'Bebas Neue';
-    src: url('Bebas-fontfacekit/BEBAS___-webfont.eot');
-    src: url('Bebas-fontfacekit/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Bebas-fontfacekit/BEBAS___-webfont.woff') format('woff'),
-         url('Bebas-fontfacekit/BEBAS___-webfont.ttf') format('truetype'),
-         url('Bebas-fontfacekit/BEBAS___-webfont.svg#BebasRegular') format('svg');
+    src: url('../Bebas-fontfacekit/BEBAS___-webfont.eot');
+    src: url('../Bebas-fontfacekit/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Bebas-fontfacekit/BEBAS___-webfont.woff') format('woff'),
+         url('../Bebas-fontfacekit/BEBAS___-webfont.ttf') format('truetype'),
+         url('../Bebas-fontfacekit/BEBAS___-webfont.svg#BebasRegular') format('svg');
     font-weight: normal;
     font-style: normal;
 }
